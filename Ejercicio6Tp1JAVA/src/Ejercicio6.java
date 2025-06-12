@@ -14,13 +14,21 @@ public class Ejercicio6 {
 		System.out.println("Ingrese una palabra o frase que desee invertir:");
 		
 		Scanner scanner=new Scanner(System.in);
+		/* Lee la línea completa de texto que el usuario ingresa (incluyendo espacios)
+		 y la guarda en la variable 'palabra' de tipo String.*/
 		String palabra=scanner.nextLine();
-		
+		/* Crea un nuevo objeto StringBuilder a partir de la 'palabra' ingresada.
+		StringBuilder es una clase que permite modificar cadenas de texto de forma eficiente.*/
 		StringBuilder stringBuilder = new StringBuilder(palabra);
+		/*Usa el método 'reverse()' de StringBuilder para invertir la secuencia de caracteres.
+		Luego, convierte el StringBuilder invertido de nuevo a un String y lo guarda en 'invert'.*/
 		String invert = stringBuilder.reverse().toString();
 		
-		System.out.println(palabra);
+		System.out.println(palabra); // Imprime la palabra o frase original ingresada por el usuario.
 		System.out.println(invert);
+
+		scanner.close(); // Cerrar el objeto Scanner para liberar los recursos del sistema.
+		
 	}
 
 }
