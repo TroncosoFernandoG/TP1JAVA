@@ -20,8 +20,8 @@ public class Ejercicio12 {
 		
 		do {
 			
-			sum+=n%10;
-			n/=10;
+			sum+=n%10; //Guarda y suma el resto de la division en n y 10, para separarlo en digitos
+			n/=10; //elimina el digito ya guardado/sumado
 			
 		}while(n!=0);
 		
