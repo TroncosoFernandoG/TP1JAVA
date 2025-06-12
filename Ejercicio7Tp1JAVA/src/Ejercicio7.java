@@ -20,9 +20,13 @@ public class Ejercicio7 {
 		Scanner scanner=new Scanner(System.in);
 		
 		String cadena=scanner.nextLine();
-		
+
+		/*Inicia un bucle 'for' que itera a través de cada carácter de la 'cadena'.
+		'i' va desde 0 (el primer carácter) hasta la longitud de la cadena(cadena.lenght()) - 1 (el último carácter).
+		*/
 		for(int i=0;i<cadena.length();i++) {
-			
+			// Comprueba si el carácter actual es una vocal o una consonante (minúscula o mayúscula).
+			// 'cadena.charAt(i)' obtiene el carácter en la posición 'i'.
 			if(cadena.charAt(i)=='a'||cadena.charAt(i)=='e'||cadena.charAt(i)=='i'||cadena.charAt(i)=='o'||cadena.charAt(i)=='u'||
 			cadena.charAt(i)=='A'||cadena.charAt(i)=='E'||cadena.charAt(i)=='I'||cadena.charAt(i)=='O'||cadena.charAt(i)=='U') {
 				ContVocales++;
