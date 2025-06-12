@@ -1,9 +1,9 @@
-/*3-Pedir números por pantalla hasta que alguno sea mayor a 100 y además sea un numero primo
+/*3-Pedir nÃºmeros por pantalla hasta que alguno sea mayor a 100 y ademÃ¡s sea un numero primo
  
-Troncoso Fernando Gabriel 5°1°
+Troncoso Fernando Gabriel 5Â°1Â°
  */
 
-import java.util.Scanner;
+import java.util.Scanner; // Importa la clase Scanner para poder leer la entrada del usuario.
 
 public class Ejercicio3 {
 
@@ -15,12 +15,12 @@ public class Ejercicio3 {
 			
 			ConTD=0;
 			
-		Scanner scanner=new Scanner(System.in);
+		Scanner scanner=new Scanner(System.in); // Crea un nuevo objeto Scanner para leer la entrada del teclado.
 		
 		
 		System.out.println("Ingrese Un Numero mayor a 100 y que ademas sea primo: ");
 		
-		n=scanner.nextInt();
+		n=scanner.nextInt(); // Lee el nÃºmero entero que el usuario ingresa y lo guarda en 'n'.
 		
 		for(int i=1;i<n+1;i++) {
 			if(n%i==0) {
