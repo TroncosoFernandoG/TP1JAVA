@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-/*5- Tabla de Multiplicar: Solicita al usuario un n�mero del 1 al 10. Genera y muestra por consola
-la tabla de multiplicar de ese n�mero del 1 al 10.
+/*5- Tabla de Multiplicar: Solicita al usuario un número del 1 al 10. Genera y muestra por consola
+la tabla de multiplicar de ese número del 1 al 10.
 
-Troncoso Fernando G 5�1
+Troncoso Fernando G 5°1
 */
 
 
@@ -24,18 +24,20 @@ public class Ejercicio5 {
 		n=scanner.nextInt();
 		
 		scanner.close();
-		
+
+		/*Usa una estructura 'switch' para ejecutar un bloque de código diferente
+		 dependiendo del valor del número 'n' ingresado por el usuario.*/
 		switch(n) {
 		
-		case 1: 
+		case 1: // Si 'n' es 1
 			
 			for(int i=1;i<11;i++) {
 				resultado= n*i;
 				System.out.println(n+"x"+i+"="+resultado);
 			}
 			
-		break;
-		
+		break; // Sale del bloque 'switch' después de ejecutar este caso.
+
 		case 2: 
 			
 			for(int i=1;i<11;i++) {
@@ -119,7 +121,8 @@ public class Ejercicio5 {
 		}
 		
 		}while(n<0||n>10);
-		
+		/*Condición del bucle 'while': El bucle se repite si 'n' es menor que 0 O 'n' es mayor que 10.
+		Esto asegura que el usuario ingrese un número en el rango [1, 10].*/
 		
 		
 	}
