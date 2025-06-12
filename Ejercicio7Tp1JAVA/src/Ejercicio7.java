@@ -1,6 +1,9 @@
 /*7- Contador de Vocales y Consonantes: Solicita al usuario una cadena de texto. Cuenta y
 muestra el número de vocales (a, e, i, o, u, ignorando mayúsculas/minúsculas) y el número de
-consonantes en la cadena.*/
+consonantes en la cadena.
+
+Troncoso Fernando Gabriel 5°1°
+*/
 
 import java.util.Scanner;
 
