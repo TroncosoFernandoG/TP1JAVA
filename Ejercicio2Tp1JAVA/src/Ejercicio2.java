@@ -1,7 +1,7 @@
-/*2-Escribir por consola los números del 50 al 100 de la siguiente manera si es un numero primo
+/*2-Escribir por consola los nÃºmeros del 50 al 100 de la siguiente manera si es un numero primo
 escribir primo, sino escribir sus divisores
 
-Troncoso Fernando Gabriel 5°1°
+Troncoso Fernando Gabriel 5Â°1Â°
 */
 
 
@@ -10,15 +10,16 @@ public class Ejercicio2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int DivCont=0;
+		int DivCont=0; //Declaro variable 'DivCont' para contar los divisores
 		int cont=0;
-		int[] divisores=new int[20];
+		int[] divisores=new int[20];  /* Array para almacenar los divisores de cada nÃºmero.
+		 Se inicializa con un tamaÃ±o fijo de 20.*/
 		
 		for(int i=50;i<101;i++) {
 			for(int j=1;j<101;j++) {
 				
 				if(i%j==0) {
-					DivCont++;
+					DivCont++; // Incrementa el contador de divisores.
 					
 					divisores[cont]=j;
 					cont++;
@@ -33,7 +34,7 @@ public class Ejercicio2 {
 				System.out.println("Los divisores numero "+i +" son: \n");
 				
 				for(int k=0;k<cont;k++) {
-					System.out.print(" "+divisores[k]);
+					System.out.print(" "+divisores[k]); //Imprime los divisores
 				}
 				
 				System.out.println("\n");
