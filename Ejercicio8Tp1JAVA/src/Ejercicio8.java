@@ -1,6 +1,9 @@
 /*8. Adivina el Número: Genera un número aleatorio entre 1 y 100 (inclusive). Pide al usuario
 que adivine el número. Dale pistas como &quot;El número es mayor&quot; o &quot;El número es menor&quot;
-hasta que adivine correctamente. Cuenta cuántos intentos le tomó.*/
+hasta que adivine correctamente. Cuenta cuántos intentos le tomó.
+
+Troncoso Fernando Gabriel 5°1°
+*/
 
 import java.util.Random;
 import java.util.Scanner;
