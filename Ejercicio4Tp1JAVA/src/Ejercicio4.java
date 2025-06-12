@@ -1,6 +1,9 @@
-/*4-Suma de Números Pares e Impares: Pide al usuario un número entero positivo N. Luego,
-calcula y muestra la suma de todos los números pares desde 1 hasta N, y la suma de todos los
-números impares desde 1 hasta N.*/
+/*4-Suma de NÃºmeros Pares e Impares: Pide al usuario un nÃºmero entero positivo N. Luego,
+calcula y muestra la suma de todos los nÃºmeros pares desde 1 hasta N, y la suma de todos los
+nÃºmeros impares desde 1 hasta N.
+
+Troncoso Fernando Gabriel 5Â°1Â°
+*/
 
 import java.util.Scanner;
 
