@@ -15,7 +15,7 @@ public class Ejercicio14 {
 		Scanner scanner=new Scanner(System.in);
 
 		int n, i;
-        int a=0, b=1, c;
+        int a=0, b=1, c; // 'a' y 'b' Inicializa el primer y segundo término de Fibonacci.
 
         System.out.println("Ingrese un Numero para iniciar la secuencia Fibonacci:");
         n=scanner.nextInt();
@@ -26,10 +26,10 @@ public class Ejercicio14 {
             System.out.println("Los primeros " + n + " terminos son:");
 
             for (i=0; i<n; i++) {
-                System.out.print(a + " ");
-                c = a+b;
-                a = b;
-                b = c;
+                System.out.print(a + " "); // Imprime el término actual de la secuencia, seguido de un espacio.
+                c = a+b;  // Calcula el siguiente término sumando los dos anteriores (a + b).
+                a = b;  // Actualiza 'a' al valor de 'b' para el siguiente bucle.
+                b = c;  // Actualiza 'b' al valor de 'c' (el recién calculado) para el siguiente bucle.
             }
         }
 		
