@@ -1,5 +1,8 @@
 /*6- Se Ie pide al usuario que ingrese una palabra o frase. Luego, muestra por consola la misma
-palabra o frase pero invertida. Por ejemplo, si ingresa 'hola' debe mostrar 'aloh'*/
+palabra o frase pero invertida. Por ejemplo, si ingresa 'hola' debe mostrar 'aloh'
+
+Troncoso Fernando Gabriel 5°1°
+*/
 
 import java.util.Scanner;
 
