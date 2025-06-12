@@ -1,7 +1,7 @@
-/*9- Pide al usuario que ingrese tres números enteros. Determina y muestra cuál de los tres es el
+/*9- Pide al usuario que ingrese tres nÃºmeros enteros. Determina y muestra cuÃ¡l de los tres es el
 mayor.
 
-Troncoso Fernando G 5°1
+Troncoso Fernando G 5Â°1
 */
 
 import java.util.Scanner;
@@ -30,6 +30,8 @@ public class Ejercicio9 {
 		n3=scanner.nextInt();
 		scanner.close();
 		
+		// Usa Math.max() para encontrar el mayor entre los dos primeros nÃºmeros (n1 y n2).
+		// El resultado se guarda en 'n4'.
 		int n4= Math.max(n1,n2);
 		int n5= Math.max(n4,n3);
 		
