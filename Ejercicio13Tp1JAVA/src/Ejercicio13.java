@@ -33,7 +33,7 @@ public class Ejercicio13 {
             System.out.println("Ingrese la temperatura en Celsius:");
             
             celsius=scanner.nextDouble();
-            fahrenheit=celsius* 9/5+32;
+            fahrenheit=celsius* 9/5+32; //Calculo de C° a F°
             
             System.out.println("Equivale a " + fahrenheit + " grados Fahrenheit");
             
@@ -43,13 +43,13 @@ public class Ejercicio13 {
             System.out.println("Ingrese la temperatura en Fahrenheit:");
             
             fahrenheit = scanner.nextDouble();
-            celsius=(fahrenheit - 32)*5/9;
+            celsius=(fahrenheit - 32)*5/9; //Calculo de F° a C°
             
             System.out.println("Equivale a " + celsius + " grados Celsius");
             
             break;
         
-        default:
+        default: //El default se usa en casos de que el valor ingresado no coincida con los case
             System.out.println("Opcion invalida");
             break;
         }
