@@ -1,7 +1,7 @@
-/*11. Pide al usuario un año. Determina si es un año bisiesto y muestra un mensaje indicándolo.
-(Un año es bisiesto si es divisible por 4, excepto si es divisible por 100 pero no por 400).
+/*11. Pide al usuario un aÃ±o. Determina si es un aÃ±o bisiesto y muestra un mensaje indicÃ¡ndolo.
+(Un aÃ±o es bisiesto si es divisible por 4, excepto si es divisible por 100 pero no por 400).
  
- Troncoso Fernando G 5°1
+ Troncoso Fernando G 5Â°1
  */
 
 import java.util.Scanner;
@@ -14,18 +14,19 @@ public class Ejercicio11 {
 		Scanner scanner=new Scanner(System.in);
 		int n;
 		do {
-		System.out.println("Ingrese un año apartir de 1000 para saber si es bisiesto o no: ");
+		System.out.println("Ingrese un aÃ±o apartir de 1000 para saber si es bisiesto o no: ");
 		n=scanner.nextInt();
 			}while(n<1000);
 
+		//condiciones para que sea un aÃ±o bisiesto
 		if(n%4==0) {
-			System.out.println(n+" es un año bisiesto");
+			System.out.println(n+" es un aÃ±o bisiesto");
 		}
 		else if(n%100==0 && n%400==0) {
-				System.out.println(n+" es un año bisiesto");
+				System.out.println(n+" es un aÃ±o bisiesto");
 			}
 		else {
-			System.out.println(n+" no es un año bisiesto");
+			System.out.println(n+" no es un aÃ±o bisiesto");
 		}
 		scanner.close();
 	}
