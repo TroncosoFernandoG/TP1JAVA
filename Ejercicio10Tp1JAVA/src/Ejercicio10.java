@@ -1,7 +1,7 @@
-/*10. Solicita al usuario un número entero no negativo. Calcula y muestra el factorial de ese
-número
+/*10. Solicita al usuario un nÃºmero entero no negativo. Calcula y muestra el factorial de ese
+nÃºmero
  
- Troncoso Fernando G 5°1
+ Troncoso Fernando G 5Â°1
 */
 
 import java.util.Scanner;
@@ -31,8 +31,8 @@ public class Ejercicio10 {
 		}else {
 			
 			
-			for(int i=n-1;i>0;i--) {
-				facto*=i;
+			for(int i=n-1;i>0;i--) { //Ciclo for descendente para que empiece desde el numero anterior a n hasta llegar a 1
+				facto*=i; //factorial
 			}
 			System.out.println(n+"!= "+facto);
 		}
